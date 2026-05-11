@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\mutiautologin\\scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\scripts\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\mutiautologin\\scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +42,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MonoForMutiAutoLogin.cs",
               "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\MonoForMutiAutoLogin.cs",
               "RelativeDocumentMoniker": "Scripts\\Game\\MonoForMutiAutoLogin.cs",
               "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\MonoForMutiAutoLogin.cs",
               "RelativeToolTip": "Scripts\\Game\\MonoForMutiAutoLogin.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T04:51:29.577Z",
               "EditorCaption": ""
@@ -68,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AutoLogin.cs",
               "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\AutoLogin.cs",
               "RelativeDocumentMoniker": "Scripts\\Game\\AutoLogin.cs",
               "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\AutoLogin.cs",
               "RelativeToolTip": "Scripts\\Game\\AutoLogin.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAPkAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAANwAAAAAAAAAAAAAAP0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T09:40:23.578Z",
               "EditorCaption": ""

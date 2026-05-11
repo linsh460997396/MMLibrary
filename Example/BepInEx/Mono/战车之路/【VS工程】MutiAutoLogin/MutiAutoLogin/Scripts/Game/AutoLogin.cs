@@ -242,38 +242,15 @@ namespace MutiAutoLogin
                         password = parts[1].Trim();
                         enabledStr = parts[2].Trim().ToLower();
 
-                        //username以注释//开头的行将被跳过
-                        if (username.StartsWith("//"))
-                        {
-                            Debug.LogWarning($"账号配置行被注释掉了,已跳过: {line}");
-                            continue;
-                        }
-
-                        if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
-                        {
-                            Debug.LogWarning($"账号配置格式错误,用户名或密码为空: {line}");
-                            continue;
-                        }
-
-                        if (enabledStr != "true" && enabledStr != "false")
-                        {
-                            Debug.LogWarning($"账号配置格式错误,启用状态必须为 true 或 false: {line}");
-                            continue;
-                        }
-
                         if (enabledStr == "true")
                         {
                             accounts.Add(new AccountInfo(username, password, true));
                             Debug.Log($"读取账号: {username}, 开关: true");
                         }
-                        else
+                        else if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password) || username.StartsWith("//") ||(enabledStr != "true" && enabledStr != "false"))
                         {
-                            Debug.LogWarning($"账号 {username} 已跳过");
+                            continue;
                         }
-                    }
-                    else
-                    {
-                        Debug.LogWarning($"账号配置格式错误,需要3个部分(username-password-enabled): {line}");
                     }
                 }
 
