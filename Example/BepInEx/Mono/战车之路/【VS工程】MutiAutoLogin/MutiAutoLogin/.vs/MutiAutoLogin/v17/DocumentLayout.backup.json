@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\mutiautologin\\scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\mutiautologin\\scripts\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\scripts\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\mutiautologin\\scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\autologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\mutiautologin\\scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|MutiAutoLogin.csproj|solutionrelative:scripts\\game\\monoformutiautologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MonoForMutiAutoLogin.cs",
-              "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\MonoForMutiAutoLogin.cs",
-              "RelativeDocumentMoniker": "Scripts\\Game\\MonoForMutiAutoLogin.cs",
-              "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\MonoForMutiAutoLogin.cs",
-              "RelativeToolTip": "Scripts\\Game\\MonoForMutiAutoLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T04:51:29.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs",
-              "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\Main.cs",
-              "RelativeDocumentMoniker": "Scripts\\Game\\Main.cs",
-              "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\Main.cs",
-              "RelativeToolTip": "Scripts\\Game\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T18:17:10.558Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:7:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
@@ -69,12 +43,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MonoForMutiAutoLogin.cs",
+              "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\MonoForMutiAutoLogin.cs",
+              "RelativeDocumentMoniker": "Scripts\\Game\\MonoForMutiAutoLogin.cs",
+              "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\MonoForMutiAutoLogin.cs",
+              "RelativeToolTip": "Scripts\\Game\\MonoForMutiAutoLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T04:51:29.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\Main.cs",
+              "RelativeDocumentMoniker": "Scripts\\Game\\Main.cs",
+              "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\Main.cs",
+              "RelativeToolTip": "Scripts\\Game\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T18:17:10.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AutoLogin.cs",
               "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\AutoLogin.cs",
               "RelativeDocumentMoniker": "Scripts\\Game\\AutoLogin.cs",
               "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\MutiAutoLogin\\Scripts\\Game\\AutoLogin.cs",
               "RelativeToolTip": "Scripts\\Game\\AutoLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUBAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAPkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T09:40:23.578Z",
               "EditorCaption": ""

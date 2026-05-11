@@ -242,6 +242,13 @@ namespace MutiAutoLogin
                         password = parts[1].Trim();
                         enabledStr = parts[2].Trim().ToLower();
 
+                        //username以注释//开头的行将被跳过
+                        if (username.StartsWith("//"))
+                        {
+                            Debug.LogWarning($"账号配置行被注释掉了,已跳过: {line}");
+                            continue;
+                        }
+
                         if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
                         {
                             Debug.LogWarning($"账号配置格式错误,用户名或密码为空: {line}");
