@@ -5,27 +5,32 @@ using UnityEngine.SceneManagement;
 
 namespace MutiAutoLogin
 {
-    [BepInPlugin("BTCat.RoadChariot.MutiAutoLogin", "MutiAutoLogin", "0.0.5")]
+    [BepInPlugin("BTCat.RoadChariot.MutiAutoLogin", "MutiAutoLogin", "1.0.0")]
     public class Main : BaseUnityPlugin
     {
+        public static bool init;
         //↓入口
         private void Awake()
         {
-            Debug.Log("BepInEx插件加载成功！");
             SceneManager.sceneLoaded += OnSceneLoaded;
             Debug.Log("正在等待目标场景...");
         }
 
         public void OnSceneLoaded(Scene scene, LoadSceneMode mode)
         {
+            SceneManager.sceneLoaded -= OnSceneLoaded;
             Debug.Log("场景加载完成: " + scene.name);
-
-            MainThreadDispatcher.Instance.Invoke(() =>
+            if (!init)
             {
-                var obj = new GameObject("MonoGo");
-                obj.AddComponent<MonoGo>();
-                DontDestroyOnLoad(obj);
-            });
-        } 
+                init = true; //确保只执行一次
+                MainThreadDispatcher.Instance.Invoke(() =>
+                {
+                    //如果场景没有MonoForMutiAutoLogin则创建
+                    var obj = new GameObject("MonoForMutiAutoLogin");
+                    obj.AddComponent<MonoForMutiAutoLogin>();
+                    DontDestroyOnLoad(obj);
+                });
+            }
+        }
     }
 }
