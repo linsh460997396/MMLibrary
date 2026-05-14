@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\AutoOpen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|AutoOpen.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\autoopen\\scripts\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|AutoOpen.csproj|solutionrelative:scripts\\game\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|AutoOpen.csproj|d:\\vswork\\2022\\bepinexormod\\roadchariot\\autoopen\\scripts\\game\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}|AutoOpen.csproj|solutionrelative:scripts\\game\\entrypoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Entrypoint.cs",
+              "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\AutoOpen\\Scripts\\Game\\Entrypoint.cs",
+              "RelativeDocumentMoniker": "Scripts\\Game\\Entrypoint.cs",
+              "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\AutoOpen\\Scripts\\Game\\Entrypoint.cs",
+              "RelativeToolTip": "Scripts\\Game\\Entrypoint.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwDYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T12:56:11.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\AutoOpen\\Scripts\\Game\\Main.cs",
+              "RelativeDocumentMoniker": "Scripts\\Game\\Main.cs",
+              "ToolTip": "D:\\VSWork\\2022\\BepInExOrMod\\RoadChariot\\AutoOpen\\Scripts\\Game\\Main.cs",
+              "RelativeToolTip": "Scripts\\Game\\Main.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwIAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T09:07:45.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
