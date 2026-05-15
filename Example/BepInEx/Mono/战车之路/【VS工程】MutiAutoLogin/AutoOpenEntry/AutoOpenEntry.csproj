@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84E9F8A1-CC19-47A2-9EB9-661FF7918A25}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoOpenEntry</RootNamespace>
+    <AssemblyName>AutoOpenEntry</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=1.6.9371.18214, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>E:\Program Files\GameCollection\战车之路\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Preloader">
+      <HintPath>E:\Program Files\GameCollection\战车之路\BepInEx\core\BepInEx.Preloader.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.12.4.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>packages\HtmlAgilityPack.1.12.4\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Management" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Program Files\GameCollection\战车之路\战车之路_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Scripts\Game\Entrypoint.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\DataTable\DataTable.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\DataTable\DataTableConcurrent.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\DotNetEvent\DllLoader.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\DotNetEvent\FileWriter.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\DotNetEvent\KeyMouseHook\KeyboardHook.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\DotNetEvent\KeyMouseHook\MouseHook.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\DotNetEvent\KeyMouseHook\RecordService.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\Abilcmd.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\Actor.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\Game.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\Item.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\Order.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\Player.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\Unit.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Game\UnitGroup.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\MMCore.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\MMCore.MouseKeyboardEvent.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Obfuscator\CodeObfuscator.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\AddressableManager.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\AssetBundleLoader.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\FastSpan.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\FirstPersonAvatar.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\FPS.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\Input\InputExtension.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\Input\InputSystem.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\NoteAttribute.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\RuntimePrefab.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\TextureAnalyzer.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\TextureAnalyzerNet.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Other\UnityUtilities.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Thread\MainThreadDispatcher.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Thread\MainUpdate.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Thread\SubUpdate.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Thread\ThreadStringBuilder.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Thread\TimerUpdate.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Thread\Trigger.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Web\NetHelper.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\Class\Web\UDown.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\Entry.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\OrderQueue.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\OrderTarget.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\PlayerProp.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\PlayerPropOp.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\UnitCount.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\UnitCreateTag.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicEnum\UnitProp.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicFuncref\MMFuncref.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicStruc\OP.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicStruc\Point2F.cs" />
+    <Compile Include="Scripts\Library\MetalMaxSystem\PublicStruc\Point3F.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>taskkill /f /im 战车之路.exe
+del /q "E:\Program Files\GameCollection\战车之路\$(TargetFileName)"
+copy "$(TargetPath)" "E:\Program Files\GameCollection\战车之路\$(TargetFileName)"
+start "" "E:\Program Files\GameCollection\战车之路\战车之路.exe"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

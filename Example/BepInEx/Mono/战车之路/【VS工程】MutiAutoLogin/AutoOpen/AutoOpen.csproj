@@ -90,6 +90,7 @@
     <Compile Include="Scripts\Game\Entrypoint.cs" />
     <Compile Include="Scripts\Game\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\Game\R2ModManLaunchExample.cs" />
     <Compile Include="Scripts\Library\MainThreadDispatcher.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
